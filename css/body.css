@@ -1,0 +1,188 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.slide {
+margin: 0 auto;
+padding: 0;
+width: 966px;
+height: 204px;
+}
+
+#bogy {
+margin: 0 auto;
+width: 966px;
+height: 1055px;
+padding: 6px;
+}
+
+#body_left {
+width: 688px;
+height: 1055px;
+float: left;
+margin-left: 4px;
+margin-right: 12px;
+}
+
+#body_right {
+width: 261px;
+height: 1055px;
+float: left;
+}
+
+#about {
+min-height: 231px;
+}
+
+/* BODY BÊN TRÁI */
+
+#body_left .box {
+width: 686px;
+height: 267px;
+margin: 5px auto;
+background-color: white;
+border: 1px solid #086DA9;}
+
+#body_left #heading {
+height: 31px;
+background: url(../images/bg_vaytinchap.png) no-repeat left top;
+overflow: auto;
+text-transform: uppercase;
+font-weight: bold;
+color: white;
+line-height:30px;
+padding-left: 68px;}
+
+#body_left #anh {
+width: 149px;
+height: 113px;
+overflow: auto;
+margin: 11px 15px 0;
+float: left;
+}
+
+.box .desc {
+overflow: auto;
+font-family: Tahoma,Helvetica,Verdana;
+font-size: 14px;
+color: #086DA9;
+line-height: 180%;
+}
+
+.box .desc ul {
+margin-left: 41px;
+margin-top: 11px;
+list-style-image: url(../images/img_icon_bhnhantho_left.png)}
+
+.box .line {
+padding-left: 15px;
+}
+
+#body_left .noidung {
+font-family: Tahoma,Helvetica,Verdana;
+font-size: 16px;
+padding: 11px 25px;
+line-height: 180%;
+color: #086DA9;
+}
+
+#body_left h2 {
+display: inline;
+font-family: Tahoma,Helvetica,Verdana;
+font-size: 18px;
+}
+
+/* BODY BÊN PHẢI (WIDGET) */
+
+#body_right .box {
+min-height: 283px;
+background-color: white;
+border: 1px solid #086DA9;
+margin-bottom: 9px;}
+
+#body_right #heading {
+height: 31px;
+background: url(../images/bg_tygia.png) no-repeat left top;
+overflow: auto;
+text-transform: uppercase;
+font-weight: bold;
+color: white;
+line-height:30px;
+padding-left: 8px;}
+
+#body_right #anh {
+overflow: auto;
+margin: 9px 7px 0;
+float: left;
+border: 3px solid lightgray;}
+
+#body_right .noidung {
+height: 76px;
+font-family: Tahoma,Helvetica,Verdana;
+font-size: 14px;
+margin: 8px 10px 0;
+}
+
+#body_right .desc {
+overflow: auto;
+font-family: Tahoma,Helvetica,Verdana;
+font-size: 14px;
+margin: 0 10px;
+color: gray;
+}
+
+table, th, td {
+border-collapse: collapse;
+font-family: Tahoma,Helvetica,Verdana;
+font-size: 14px;
+}
+
+th {
+background-color: #078EAF;
+color: white;
+border-left: 1px solid #086DA9;
+border-right: 1px solid #086DA9;
+}
+
+td {
+color: #086DA9;
+text-align: left;
+text-indent: 13px;
+height: 38px;
+vertical-align: middle;
+border-left: 1px solid #086DA9;
+border-right: 1px solid #086DA9;}
+
+table {
+border: 1px solid #086DA9;}
+
+#tygia {
+padding: 18px 13px;
+}
+
+#body_right #heading1 {
+height: 31px;
+background: url(../images/bg_thongketruycap.png) no-repeat left top;
+overflow: auto;
+text-transform: uppercase;
+font-weight: bold;
+color: white;
+line-height:30px;
+padding-left: 5px;}
